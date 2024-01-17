@@ -1,5 +1,3 @@
-let a = require("./index")
+let data= require("./index")
 
-let b = 25
-
-console.log(a + b)
+console.log(data.first + " " + data.last)

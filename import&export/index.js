@@ -1,4 +1,5 @@
-let a = 25
+let a = "Hasibur rahman"
+let b = "Safin"
 
 
-module.exports = a
+module.exports = {first : a, last : b}
