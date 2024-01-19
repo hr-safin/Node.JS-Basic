@@ -9,9 +9,16 @@
 })();
 
 
-// The module wrapper applied by Node.js
+// Your module code
+const superHero = "SpiderMan";
+console.log(superHero);
+
+// The Node.js module wrapper applied automatically
 (function (exports, require, module, __filename, __dirname) {
-    // Module code (your code) goes here
-    const superHero = "SpiderMan";
-    console.log(superHero);
-  });
+  // Your module code goes here
+  const superHero = "SpiderMan";
+  console.log(superHero);
+});
+
+  console.log(__filename)
+  console.log(__dirname)
