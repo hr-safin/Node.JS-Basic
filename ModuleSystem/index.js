@@ -1,7 +1,12 @@
-const fruits = ["Mango", "Apple", "Hello","India"]
 
-function addition(a,b) {
-    return a + b
-}
+//MODULE WRAPPER Node.Js by default wrap everything written in the file
+//(function(exports,module,require, __dirname,__filename) {
+  const fruits = ["Mango", "Apple", "Hello", "India"];
 
-module.exports = fruits
+  function addition(a, b) {
+    return a + b;
+  }
+
+  module.exports = fruits;
+  // return module  // invisible node.js do that
+//})();
