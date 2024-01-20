@@ -7,6 +7,9 @@
     return a + b;
   }
 
-  module.exports = fruits;
+  module.exports = {
+    fruits,
+    addition
+  };
   // return module  // invisible node.js do that
 //})();
